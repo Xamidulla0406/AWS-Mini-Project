@@ -1,0 +1,6 @@
+CREATE TABLE Schedule (
+    course_name VARCHAR(100),
+    room INTEGER,
+    day VARCHAR(20),
+    time VARCHAR(20)
+);

@@ -1,0 +1,11 @@
+INSERT INTO Schedule (course_name, room, day, time) VALUES
+    ('Mathematics for Computer Science', 103, 'Monday', '9:30 AM'),
+    ('Operating Systems', 112, 'Monday', '11:30 AM'),
+    ('Python Programming', 205, 'Tuesday', '9:30 AM'),
+    ('Java Programming', 213, 'Tuesday', '11:30 AM'),
+    ('IT Project Management', 308, 'Wednesday', '2:00 PM'),
+    ('Network Principles', 312, 'Wednesday', '4:30 PM'),
+    ('Systems Analysis and Design', 415, 'Thursday', '9:30 AM'),
+    ('Computer Languages', 325, 'Thursday', '11:30 AM'),
+    ('Social Engineering', 256, 'Friday', '2:00 PM'),
+    ('Computer and Information', 309, 'Friday', '4:30 PM');
