@@ -1,4 +1,4 @@
-INSERT INTO Schedule (course_name, room, day, time) VALUES
+INSERT INTO Timetable (course_name, room, day, time) VALUES
     ('Mathematics for Computer Science', 103, 'Monday', '9:30 AM'),
     ('Operating Systems', 112, 'Monday', '11:30 AM'),
     ('Python Programming', 205, 'Tuesday', '9:30 AM'),
