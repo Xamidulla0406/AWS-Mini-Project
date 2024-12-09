@@ -1,4 +1,4 @@
-CREATE TABLE Schedule (
+CREATE TABLE Timetable (
     course_name VARCHAR(100),
     room INTEGER,
     day VARCHAR(20),
