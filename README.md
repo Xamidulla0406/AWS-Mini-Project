@@ -112,10 +112,10 @@ This project involves creating a simple webpage to check a timetable. The webpag
 4. **Success Message:**
    - If the operation is successful, you will see the prompt: `your_name=>`.
 
-5. **Create a Table Using Your Name:**
-   - Now, create a table using `your_name` as the table name with the following query:
+5. **Create a Table:**
+   - Now, create a table using `Timetable` as the table name with the following query:
      ```sql
-     CREATE TABLE your_name ( 
+     CREATE TABLE Timetable ( 
          course_name VARCHAR(100),
          room INTEGER,
          day VARCHAR(20),
@@ -126,7 +126,7 @@ This project involves creating a simple webpage to check a timetable. The webpag
 6. **Insert Data into the Table:**
    - Insert the following sample data into your table:
      ```sql
-     INSERT INTO your_name (course_name, room, day, time) VALUES 
+     INSERT INTO Timetable (course_name, room, day, time) VALUES 
          ('Mathematics for Computer Science', 103, 'Monday', '9:30 AM'),
          ('Operating Systems', 112, 'Monday', '11:30 AM'),
          ('Python Programming', 205, 'Tuesday', '9:30 AM'),
@@ -142,7 +142,7 @@ This project involves creating a simple webpage to check a timetable. The webpag
 7. **Check the Data:**
    - Use the following command to check if the data was successfully inserted into the table:
      ```sql
-     SELECT * FROM your_name;
+     SELECT * FROM Timetable;
      ```
 
 8. **Exit SQL:**
