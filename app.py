@@ -26,7 +26,7 @@ def timetable():
     )
 
     cur = conn.cursor()
-    query = "SELECT * FROM your_name WHERE day = %s;" # your_name - table name
+    query = "SELECT * FROM Timetable WHERE day = %s;"
     cur.execute(query, (day,))
     rows = cur.fetchall()
 
